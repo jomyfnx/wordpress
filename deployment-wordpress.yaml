@@ -79,7 +79,6 @@ spec:
       containers:
       - image: wordpress
         name: wordpress
-        #command: [ "/bin/bash", "-c", "/etc/init.d/apache2 start"]
         env:
         - name: WORDPRESS_DB_USER
           value: root
